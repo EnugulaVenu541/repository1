@@ -1,0 +1,22 @@
+node{
+    agent any{
+          stages{
+                stage('Build'){
+                echo "Building"
+                }
+                stage('deploy'){
+                echo "deploying"
+                }
+                stage('test'){
+                echo "testing"
+                }
+                stage('release'){
+                echo "releasing"
+                }
+          
+          
+          }
+    
+    }
+
+}
